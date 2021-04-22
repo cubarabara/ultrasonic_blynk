@@ -38,8 +38,8 @@ void loop()
     if(distance == 30)
     {
         Blynk.virtualWrite(V1, 255);
-        Blynk.email("cubarabaragamers@gmail.com", "Makanan kucing Habis");
-        Blynk.notify("Makanan Kucing Habis");
+        Blynk.email("");
+        Blynk.notify("");
     
     }
     else {
