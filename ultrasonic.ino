@@ -38,8 +38,8 @@ void loop()
     if(distance == 30)
     {
         Blynk.virtualWrite(V1, 255);
-        Blynk.email("");
-        Blynk.notify("");
+        // Blynk.email("");
+        // Blynk.notify("");
     
     }
     else {
